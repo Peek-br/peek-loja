@@ -1,0 +1,165 @@
+:root {
+  --bg: #08060c;
+  --card-bg: #14111c;
+  --purple: #6d28d9;
+  --magenta: #db27ac;
+  --white: #ffffff;
+  --muted: #a9a3b8;
+  --radius: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--white);
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+.hero {
+  text-align: center;
+  padding: 48px 20px 28px;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.logo-mark {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--purple), var(--magenta));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.tagline {
+  color: var(--muted);
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.tagline .accent {
+  background: linear-gradient(90deg, var(--purple), var(--magenta));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+
+.grid {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.loading,
+.empty,
+.error {
+  text-align: center;
+  color: var(--muted);
+  padding: 40px 16px;
+}
+
+.card {
+  display: flex;
+  gap: 14px;
+  background: var(--card-bg);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius);
+  padding: 12px;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.card:active {
+  transform: scale(0.98);
+}
+
+.card.destaque {
+  border-color: var(--magenta);
+  box-shadow: 0 0 0 1px var(--magenta), 0 0 24px rgba(219, 39, 172, 0.25);
+}
+
+.card-img {
+  width: 84px;
+  height: 84px;
+  border-radius: 12px;
+  object-fit: cover;
+  background: #1e1a29;
+  flex-shrink: 0;
+}
+
+.card-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.card-title {
+  font-size: 14.5px;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 4px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-price {
+  font-size: 15px;
+  font-weight: 700;
+  background: linear-gradient(90deg, var(--purple), var(--magenta));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.card-cta {
+  flex-shrink: 0;
+  background: linear-gradient(135deg, var(--purple), var(--magenta));
+  color: var(--white);
+  font-size: 12.5px;
+  font-weight: 700;
+  padding: 8px 14px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.badge-destaque {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--magenta);
+  margin-bottom: 3px;
+}
+
+.footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 11.5px;
+  margin-top: 40px;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+.footer .handle {
+  margin-top: 6px;
+  font-weight: 700;
+  color: var(--white);
+}

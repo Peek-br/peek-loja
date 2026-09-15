@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Peek — Produtos, gadgets e descobertas</title>
+  <meta name="description" content="Achados e recomendações da Peek — clique e confira." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="logo">
+      <span class="logo-mark">P</span>eek
+    </div>
+    <p class="tagline">Produtos, gadgets e <span class="accent">descobertas</span>.</p>
+  </header>
+
+  <main id="produtos" class="grid">
+    <!-- Preenchido via JavaScript a partir da planilha (ver config.js) -->
+    <p class="loading">Carregando produtos…</p>
+  </main>
+
+  <footer class="footer">
+    <p>Alguns links são de afiliado — ao comprar, a Peek pode ganhar uma comissão, sem custo extra pra você.</p>
+    <p class="handle">@peek.br</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
