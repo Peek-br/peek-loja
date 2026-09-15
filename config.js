@@ -6,5 +6,10 @@
 //   2. Arquivo > Compartilhar > Publicar na web
 //   3. Escolha a aba certa e o formato "Valores separados por vírgula (.csv)"
 //   4. Clique em "Publicar", copie o link gerado e cole abaixo, entre aspas.
+//
+// Se o Google só te der o link "pubhtml" (página da web, não CSV): troca
+// "pubhtml" por "pub" e adiciona "&output=csv" no final da URL — os dois
+// links seguem o mesmo padrão, só muda essa parte.
 
-const SHEET_CSV_URL = "COLE_AQUI_O_LINK_CSV_PUBLICADO_DA_SUA_PLANILHA";
+const SHEET_CSV_URL =
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vQgKtCbq8Dhn0o4DNqUTqPNtAF23YAsF7kplFop06EoCMWsZERJvRu4ZLW8WtoYijNTzUJj6a-yOd2-/pub?gid=2015392480&single=true&output=csv";
