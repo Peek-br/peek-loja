@@ -65,6 +65,29 @@ Pronto — daqui pra frente, **toda vez que você editar a planilha** (add,
 remove, muda preço), o site atualiza sozinho, sem precisar mexer em código
 de novo.
 
+## Rotina do dia a dia (recomendada) — decidir pelo app, não pela planilha
+
+Editar a planilha à mão funciona, mas o app da Peek (Fila de Aprovação) já
+sabe qual produto você aprovou/publicou — é mais seguro decidir por lá:
+
+1. Em cada item da Fila de Aprovação, tem um bloco **"Loja (link em bio)"**
+   com um checkbox **"Mostrar este produto na página de links"**, um
+   **"Destacar"** (mesma coisa que a coluna Destaque) e um campo de nome
+   customizado (útil porque o título original do produto costuma vir cheio
+   de palavra-chave de SEO, ex: "2 Peças/Par de Luzes LED para Sapatos,
+   Acessórios de Decoração DIY...").
+2. Quando terminar de marcar os produtos do dia, clique em **"Baixar CSV
+   da loja"** no topo da Fila de Aprovação — baixa um `.csv` já no formato
+   certo.
+3. Na sua planilha do Google Sheets: **Arquivo → Importar → Fazer upload**
+   → selecione o arquivo baixado → escolha **"Substituir planilha"** →
+   Importar dados.
+4. Pronto — o site já reflete exatamente o que você decidiu no app, sem
+   editar nada à mão na planilha.
+
+A planilha continua existindo (é ela que o site lê), só que agora ela é um
+espelho do que o app decidiu, não a fonte da decisão em si.
+
 ## Trocar o link genérico por domínio próprio (quando comprar um)
 
 Quando registrar um domínio (ex: `peek.com.br`), no mesmo painel
