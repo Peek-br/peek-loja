@@ -12,4 +12,4 @@
 // links seguem o mesmo padrão, só muda essa parte.
 
 const SHEET_CSV_URL =
-  "https://docs.google.com/spreadsheets/d/e/2PACX-1vQgKtCbq8Dhn0o4DNqUTqPNtAF23YAsF7kplFop06EoCMWsZERJvRu4ZLW8WtoYijNTzUJj6a-yOd2-/pub?gid=2015392480&single=true&output=csv";
+  "https://docs.google.com/spreadsheets/d/e/2PACX-1vQgKtCbq8Dhn0o4DNqUTqPNtAF23YAsF7kplFop06EoCMWsZERJvRu4ZLW8WtoYijNTzUJj6a-yOd2-/pub?gid=1116950791&single=true&output=csv";
